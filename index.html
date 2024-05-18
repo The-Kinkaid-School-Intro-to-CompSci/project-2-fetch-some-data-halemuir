@@ -6,13 +6,23 @@
         <title>Typing Test</title> 
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="script.js"></script>
+        <h2 id="title"><span id="userName"></span>'s Typing Test</h2>
     </head>
     <body>
-        <p id="quote"></p>
-        <p id="author"></p>
-        <p id="charecters"></p>
-        <p id="WPM"></p>
+        <p id="quote" class="allTypingElements"></p>
+        <p id="author" class="allTypingElements"></p>
+        <p id="charecters" class="allTypingElements"></p>
+        <p id="WPM" class="allTypingElements"></p>
         <div id="typing" contenteditable="plaintext-only"></div>
         <!-- <input id="typing"></input> -->
+        <label for="red">Red</label>
+        <input type="range" name="red" id="red" min=0 max=255>
+        <label for="green">Green</label>
+        <input type="range" name="green" id="green" min=0 max=255>
+        <label for="blue">Blue</label>
+        <input type="range" name="blue" id="blue" min=0 max=255>
+        <button id="clear-local-storage">Clear Local Storage</button>
+        <button id="switchTextColor">Switch Text Color</button>
+        <button id="reload">Restart Typing Test</button>
     </body>
 </html>

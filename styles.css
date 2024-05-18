@@ -6,35 +6,47 @@
   box-sizing: border-box;
 }
 
+#clear-local-storage{
+  background-color: transparent;
+  border-color:black;
+}
+#switchTextColor{
+  background-color: transparent;
+  border-color:black;
+}
+#reload{
+  background-color: transparent;
+  border-color:black;
+}
 
 #typing {
   vertical-align: top;
-  color: white;
+  color: black;
   font-size: 25px;
   background-color: transparent;
   /* background-color:  rgb(52, 52, 52); */
   border-width:2px;
   border-style:solid;
-  border-color:rgb(255, 255, 255);
+  border-color:black;
   width: 1153px;
   height: 35px;
-  /* margin-top: -85px; */
+  /* margin-top: 85px; */
 }
 * {
   margin: 0;
   color: var(--text-color);
-  background-color: var(--main-background);
+  /* background-color: var(--main-background); */
 }
 p {
-  color: white;
+  color: black;
   font-size: 25px;
 }
 
 /** You can define your own CSS variables here */
 :root {
   /** Example: */
-  --text-color: white;
-  --main-background: rgb(52, 52, 52);
+  --text-color: black;
+  /* --main-background: rgb(52, 52, 52); */
 }
 
 /** Project styling */
